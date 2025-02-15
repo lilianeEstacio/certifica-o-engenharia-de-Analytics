@@ -9,12 +9,14 @@ sources:
       - name: countryregion
       - name: creditcard
       - name: customer
-      - name: employee
       - name: person
       - name: product
+      - name: productcategory
+      - name: productmodel
+      - name: productsubcategory
       - name: salesorderdetail
       - name: salesorderheader
       - name: salesorderheadersalesreason
-      - name: salesperson
       - name: salesreason
       - name: stateprovince
+      - name: store
