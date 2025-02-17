@@ -18,6 +18,7 @@ renamed as (
 final AS (
 
     select
+        {{ dbt_utils.generate_surrogate_key(['person_id']) }} as person_uid,
         person_id,
         TRIM(CONCAT(first_name, ' ', middle_name, ' ', last_name)) AS person_name
     from renamed

@@ -4,12 +4,22 @@ with product_model as (
 
 ),
 
-final as (
+renamed as (
 
     select
         cast(productmodelid as int) as product_model_id,
-        cast(name as string) as product_name
+        cast(name as string) as product_model_name
     from product_model
+
+),
+
+final as (
+
+    select
+       {{ dbt_utils.generate_surrogate_key(['product_model_id']) }} as product_model_uid,
+        product_model_id,
+        product_model_name
+    from renamed
 
 )
 
