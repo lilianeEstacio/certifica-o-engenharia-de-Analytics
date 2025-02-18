@@ -1,0 +1,11 @@
+models:
+  - name: stg_adventure_works_product_subcategory
+    description: Tabela com informações sobre as subcategorias de produtos
+    columns:
+      - name: product_sub_category_id,
+        description: Identificador de subcategoria de produto
+
+      - name: subcategory_name
+        description: nome da subcategoria do produto
+
+     

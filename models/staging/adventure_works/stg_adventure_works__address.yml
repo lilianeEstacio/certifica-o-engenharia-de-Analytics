@@ -1,0 +1,15 @@
+models:
+  - name: stg_adventure_works__address
+    description: Tabela com o cadastros de endereços.
+    columns:
+      - name: address_uid
+        description: Identificador do endereço.
+      
+      - name: state_province_uid
+        description: Identificador do estado.
+
+      - name: address_id
+        description: Identificador original do endereço. 
+     
+      - name: address_name
+        description: nome do endereço.

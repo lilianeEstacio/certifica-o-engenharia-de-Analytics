@@ -1,0 +1,16 @@
+models:
+  - name: stg_adventure_works_sales_order_header
+    description: Tabela com informações sobre os pedidos de vendas, incluindo datas e status de envio.
+    columns:
+      - name: sales_order_id,
+        description: identificador único do pedido de venda
+
+      - name: order_date,
+        description: data que o pedido foi realizado
+
+      - name: due_date
+        description: data de vencimento do pedido
+
+      - name: ship_date
+        description: data em que o pedido foi enviado ou está previsto para ser enviado.
+       

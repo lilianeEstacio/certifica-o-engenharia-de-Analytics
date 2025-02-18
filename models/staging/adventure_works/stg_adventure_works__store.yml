@@ -1,0 +1,9 @@
+models:
+  - name: stg_adventure_works_store
+    description: Tabela com informações da empresa
+    columns:
+      - name: store_id
+        description: identificador único da loja
+
+      - name: store_name
+        description: nome da loja

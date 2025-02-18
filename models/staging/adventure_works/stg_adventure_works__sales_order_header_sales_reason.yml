@@ -1,0 +1,11 @@
+models:
+  - name: stg_adventure_works_sales_order_header_sales_reason
+    description: Tabela de relacionamento entre os eventos de vendas e motivo de venda.
+    columns:
+      - name: sales_order_uid
+        description: Identificador universal do pedido de venda.
+        
+      - name: sales_reason_uid
+        description: Identificador universal do motivo de venda. 
+
+      

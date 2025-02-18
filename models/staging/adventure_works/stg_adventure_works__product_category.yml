@@ -1,0 +1,9 @@
+models:
+  - name: stg_adventure_works_category
+    description: Tabela com categoria dos produtos
+    columns:
+      - name: product_category_id
+        description: Identificador da categoria do produto
+
+      - name: category_name
+        description: nome da categoria do produto
