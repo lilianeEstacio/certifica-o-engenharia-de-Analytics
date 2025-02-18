@@ -17,11 +17,11 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "dbt_packages"
 
 models:
-  dbt certificacao:
+  dbt_certificacao:
     +persist_docs:
       relation: true
       columns: true
 
-    stangin:
+    stanging:
       +materialized: view
       +schema: stg

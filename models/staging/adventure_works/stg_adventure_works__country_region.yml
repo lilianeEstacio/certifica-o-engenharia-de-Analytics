@@ -1,0 +1,9 @@
+models:
+  - name: stg_adventure_works_country_region
+    description: tabela com os cadastros de endereços, contendo informações sobre países e regiões.
+    columns:
+      - name: country_region_id
+        description: Identificador único para cada país ou região no banco de dados.
+
+      - name: country_name
+        description: nome do pais ou região 

@@ -1,0 +1,9 @@
+models:
+  - name: stg_adventure_works_credit_card
+    description: Tabela com informações dos cartoes de credito dos clientes
+    columns:
+      - name: credit_card_id
+        description: identificador de cartao de credito
+
+      - name: card_type
+        description: tipo de cartao de credito 

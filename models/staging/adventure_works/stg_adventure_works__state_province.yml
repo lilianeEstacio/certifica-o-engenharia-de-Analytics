@@ -1,0 +1,12 @@
+models:
+  - name: stg_adventure_works_state_province
+    description: Tabela com com informações sobre estado dos locais de operações
+    columns:
+      - name: state_province_id
+        description: identificador do estato
+
+      - name: state_province_code
+        description: codigo do estado
+
+      - name: state_name
+        description: nome do estado

@@ -1,0 +1,6 @@
+models:
+  - name: stg_adventure_works_customer
+    description: Tabela com informações sobre os clientes
+    columns:
+      - name: customer_id
+        description: Identificador do cliente
