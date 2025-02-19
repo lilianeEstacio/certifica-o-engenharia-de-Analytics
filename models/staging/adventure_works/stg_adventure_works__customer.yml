@@ -1,6 +1,15 @@
 models:
-  - name: stg_adventure_works_customer
-    description: Tabela com informações sobre os clientes
+  - name: stg_adventure_works__customer
+    description: Tabela com o cadastro de clientes.
     columns:
+      - name: customer_uid
+        description: Identificador universal do cliente.
+
+      - name: person_uid
+        description: Identificador universal da pessoa.
+
+      - name: store_uid
+        description: Identificador universal da loja.
+
       - name: customer_id
-        description: Identificador do cliente
+        description: Identificador original do cliente.

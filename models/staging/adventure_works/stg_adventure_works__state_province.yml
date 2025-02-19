@@ -1,12 +1,18 @@
 models:
-  - name: stg_adventure_works_state_province
-    description: Tabela com com informações sobre estado dos locais de operações
+  - name: stg_adventure_works__state_province
+    description: Tabela com com informações sobre estado dos locais de operações.
     columns:
+      - name: state_province_uid
+        description: Identificador universal do estado.
+
+      - name: country_region_uid
+        description: Identificador universal para cada país ou região.
+
       - name: state_province_id
-        description: identificador do estato
+        description: Identificador original do estado.
 
       - name: state_province_code
-        description: codigo do estado
+        description: Código de abreviação do estado.
 
       - name: state_name
-        description: nome do estado
+        description: Nome do estado.

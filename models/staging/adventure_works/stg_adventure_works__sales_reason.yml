@@ -1,12 +1,15 @@
 models:
-  - name: stg_adventure_works_sales reason
-    description: Tabela com
+  - name: stg_adventure_works__sales_reason
+    description: Tabela com os motivos de vendas.
     columns:
+      - name: sales_reason_uid
+        description: Identificador universal do motivo de venda.
+
       - name: sales_reason_id
-        description: identificador único do motivo de venda
+        description: Identificador único do motivo de venda.
 
       - name: reason_name
-        description: nome do motivo da venda
+        description: Nome do motivo da venda.
 
-      - name: reason_typ
-        description: tipo do motivo da venda
+      - name: reason_type
+        description: Tipo do motivo da venda.

@@ -1,15 +1,24 @@
 models:
-  - name: stg_adventure_works_sales_order_detail
+  - name: stg_adventure_works__sales_order_detail
     description: Tabela com detalhes dos pedidos de vendas, incluindo informações sobre quantidades e preços.
     columns:
-      - name: sales_order_detail_id,
-        description: identificador único do pedido de venda
+      - name: sales_order_detail_uid
+        description: Identificador universal do detalhe do pedido de venda.
 
-      - name: order_quantity,
-        description: quantidade de unidades do produto no pedido
+      - name: sales_order_uid
+        description: Identificador universal do pedido de venda.
+
+      - name: product_uid
+        description: Identificados universal do produto.
+
+      - name: sales_order_detail_id
+        description: Identificador original do pedido de venda.
+
+      - name: order_quantity
+        description: Quantidade de unidades do produto no pedido.
 
       - name: unit_price_value
-        description: preco unitario do produto 
+        description: Preço unitário do produto.
 
       - name: unit_price_discount_value
-        description: valor de desconto aplicado ao preco unitario do produto
+        description: Valor de desconto aplicado ao preço unitário do produto.
