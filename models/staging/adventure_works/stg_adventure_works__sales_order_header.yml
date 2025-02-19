@@ -4,6 +4,9 @@ models:
     columns:
       - name: sales_order_uid
         description: Identificador universal do pedido de venda.
+        data_tests:
+          - unique
+          - not_null
 
       - name: customer_uid
         description: Identificador universal do cliente.
@@ -22,6 +25,9 @@ models:
 
       - name: sales_order_id
         description: Identificador original do pedido de venda
+        data_tests:
+          - unique
+          - not_null
 
       - name: order_date
         description: Data que o pedido foi realizado.

@@ -4,9 +4,15 @@ models:
     columns:
       - name: sales_reason_uid
         description: Identificador universal do motivo de venda.
+        data_tests:
+          - unique
+          - not_null
 
       - name: sales_reason_id
         description: Identificador único do motivo de venda.
+        data_tests:
+          - unique
+          - not_null
 
       - name: reason_name
         description: Nome do motivo da venda.

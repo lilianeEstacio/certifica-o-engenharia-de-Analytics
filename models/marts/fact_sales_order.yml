@@ -4,6 +4,9 @@ models:
     columns:
       - name: sales_order_detail_uid
         description: Identificador universal do detalhe do pedido de venda.
+        data_tests:
+          - unique
+          - not_null
 
       - name: sales_order_uid
         description: Identificador universal do pedido de venda.
@@ -28,6 +31,9 @@ models:
 
       - name: sales_order_detail_id
         description: Identificador do detalhe do pedido de venda.
+        data_tests:
+          - unique
+          - not_null
 
       - name: sales_order_id
         description: Identificador do pedido de venda.

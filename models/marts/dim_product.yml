@@ -4,9 +4,15 @@ models:
     columns:
       - name: product_uid
         description: Identificador universal do produto.
+        data_tests:
+          - unique
+          - not_null
 
       - name: product_id
         description: Identificador do produto.
+        data_tests:
+          - unique
+          - not_null
 
       - name: product_name
         description: Nome do produto.

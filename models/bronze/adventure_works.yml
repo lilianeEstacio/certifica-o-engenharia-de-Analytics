@@ -4,6 +4,13 @@ sources:
   - name: adventure_works
     database: FEA24_11
     schema: RAW_ADVENTURE_WORKS
+
+    freshness:
+      warn_after: {count: 12, period: hour}
+      error_after: {count: 100000, period: day}
+
+    loaded_at_field: "CAST(MODIFIEDDATE AS TIMESTAMP)"
+
     tables:
       - name: address
       - name: countryregion

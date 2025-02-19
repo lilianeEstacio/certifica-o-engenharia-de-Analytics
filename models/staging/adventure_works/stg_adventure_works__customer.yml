@@ -4,6 +4,9 @@ models:
     columns:
       - name: customer_uid
         description: Identificador universal do cliente.
+        data_tests:
+          - unique
+          - not_null
 
       - name: person_uid
         description: Identificador universal da pessoa.
@@ -13,3 +16,6 @@ models:
 
       - name: customer_id
         description: Identificador original do cliente.
+        data_tests:
+          - unique
+          - not_null

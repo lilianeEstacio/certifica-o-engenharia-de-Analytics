@@ -4,6 +4,8 @@ models:
     columns:
       - name: sales_order_detail_uid
         description: Identificador universal do detalhe do pedido de venda.
+        data_tests:
+          - not_null
 
       - name: reason_type
         description: Tipo do motivo da venda.

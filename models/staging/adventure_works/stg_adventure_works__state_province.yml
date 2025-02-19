@@ -4,12 +4,18 @@ models:
     columns:
       - name: state_province_uid
         description: Identificador universal do estado.
+        data_tests:
+          - unique
+          - not_null
 
       - name: country_region_uid
         description: Identificador universal para cada país ou região.
 
       - name: state_province_id
         description: Identificador original do estado.
+        data_tests:
+          - unique
+          - not_null
 
       - name: state_province_code
         description: Código de abreviação do estado.
