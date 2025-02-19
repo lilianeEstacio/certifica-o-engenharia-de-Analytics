@@ -1,0 +1,12 @@
+models:
+  - name: dim_customer
+    description: Tabela com informações sobre os clientes
+    columns:
+      - name: customer_uid
+        description: Identificador universal do cliente.
+
+      - name: customer_id
+        description: Identificador do cliente.
+
+      - name: customer_name
+        description: Nome do cliente, caso for um cliente loja será o nome da loja.

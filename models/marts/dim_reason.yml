@@ -1,0 +1,12 @@
+models:
+  - name: dim_reason
+    description: Tabela com associação do detalhe de venda ao motivo de venda.
+    columns:
+      - name: sales_order_detail_uid
+        description: Identificador universal do detalhe do pedido de venda.
+
+      - name: reason_type
+        description: Tipo do motivo da venda.
+
+      - name: reason_name
+        description: Nome com motivo da venda.

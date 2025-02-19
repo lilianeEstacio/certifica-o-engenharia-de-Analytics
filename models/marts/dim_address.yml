@@ -1,0 +1,24 @@
+models:
+  - name: dim_address
+    description: Tabela com o cadastros de endereços.
+    columns:
+      - name: address_uid
+        description: Identificador do endereço.
+     
+      - name: postal_code
+        description: Código postal do endereço.
+     
+      - name: address_name
+        description: Nome do endereço.
+     
+      - name: city_name
+        description: Nome da cidade.
+
+      - name: state_province_code
+        description: Código de abreviação do estado.
+
+      - name: state_name
+        description: Nome do estado.
+        
+      - name: country_name
+        description: Nome do pais ou região.

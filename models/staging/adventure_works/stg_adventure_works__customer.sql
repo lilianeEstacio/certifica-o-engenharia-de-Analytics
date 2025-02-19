@@ -20,7 +20,7 @@ final as (
     select
         {{ dbt_utils.generate_surrogate_key(['customer_id']) }} as customer_uid,
         {{ dbt_utils.generate_surrogate_key(['person_id']) }} as person_uid,
-        {{ dbt_utils.generate_surrogate_key(['store_id']) }} as state_province_uid,
+        {{ dbt_utils.generate_surrogate_key(['store_id']) }} as store_uid,
         {{ dbt_utils.generate_surrogate_key(['territory_id']) }} as territory_uid,
         customer_id
     from renamed
