@@ -4,12 +4,18 @@ models:
     columns:
       - name: product_sub_category_uid
         description: Identificador universal da subcategoria do produto.
+        data_tests:
+          - unique
+          - not_null
 
       - name: product_category_uid
         description: Identificador universal da categoria do produto.
 
       - name: product_sub_category_id
         description: Identificador original de subcategoria de produto.
+        data_tests:
+          - unique
+          - not_null
 
       - name: subcategory_name
         description: Nome da subcategoria do produto.

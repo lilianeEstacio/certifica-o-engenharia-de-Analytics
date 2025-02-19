@@ -4,9 +4,15 @@ models:
     columns:
       - name: country_region_uid
         description: Identificador universal para cada país ou região.
+        data_tests:
+          - unique
+          - not_null
 
       - name: country_region_id
         description: Identificador original para cada país ou região.
+        data_tests:
+          - unique
+          - not_null
 
       - name: country_name
         description: Nome do pais ou região 

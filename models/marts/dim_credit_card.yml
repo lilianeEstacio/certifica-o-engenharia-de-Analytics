@@ -4,9 +4,15 @@ models:
     columns:
       - name: credit_card_uid
         description: Identificador universal de cartão de crédito.
+        data_tests:
+          - unique
+          - not_null
 
       - name: credit_card_id
         description: Identificador de cartão de crédito.
+        data_tests:
+          - unique
+          - not_null
 
       - name: card_type
         description: Tipo de cartão de crédito.

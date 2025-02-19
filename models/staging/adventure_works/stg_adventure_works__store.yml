@@ -4,9 +4,15 @@ models:
     columns:
       - name: store_uid
         description: Identificador universal da loja.
+        data_tests:
+          - unique
+          - not_null
 
       - name: store_id
         description: Identificador original da loja.
+        data_tests:
+          - unique
+          - not_null
 
       - name: store_name
         description: Nome da loja.

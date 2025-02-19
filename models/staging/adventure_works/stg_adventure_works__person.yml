@@ -4,9 +4,15 @@ models:
     columns:
       - name: person_uid
         description: Identificador universal da pessoa.
+        data_tests:
+          - unique
+          - not_null
 
       - name: person_id
         description: Identificador original da pessoa.
+        data_tests:
+          - unique
+          - not_null
 
       - name: person_name
         description: Nome da pessoa individual.

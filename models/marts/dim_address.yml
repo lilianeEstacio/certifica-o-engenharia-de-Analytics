@@ -4,6 +4,9 @@ models:
     columns:
       - name: address_uid
         description: Identificador do endereço.
+        data_tests:
+          - unique
+          - not_null
      
       - name: postal_code
         description: Código postal do endereço.

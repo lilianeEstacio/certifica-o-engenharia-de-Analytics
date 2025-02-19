@@ -4,12 +4,18 @@ models:
     columns:
       - name: address_uid
         description: Identificador universal do endereço.
+        data_tests:
+          - unique
+          - not_null
       
       - name: state_province_uid
         description: Identificador univesal do estado.
 
       - name: address_id
-        description: Identificador original do endereço. 
+        description: Identificador original do endereço.
+        data_tests:
+          - unique
+          - not_null
      
       - name: address_name
         description: Nome do endereço.
