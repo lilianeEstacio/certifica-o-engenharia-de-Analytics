@@ -1,9 +1,12 @@
 models:
-  - name: stg_adventure_works_country_region
-    description: tabela com os cadastros de endereços, contendo informações sobre países e regiões.
+  - name: stg_adventure_works__country_region
+    description: Tabela com os cadastros de países e regiões.
     columns:
+      - name: country_region_uid
+        description: Identificador universal para cada país ou região.
+
       - name: country_region_id
-        description: Identificador único para cada país ou região no banco de dados.
+        description: Identificador original para cada país ou região.
 
       - name: country_name
-        description: nome do pais ou região 
+        description: Nome do pais ou região 

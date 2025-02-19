@@ -1,16 +1,37 @@
 models:
-  - name: stg_adventure_works_sales_order_header
+  - name: stg_adventure_works__sales_order_header
     description: Tabela com informações sobre os pedidos de vendas, incluindo datas e status de envio.
     columns:
-      - name: sales_order_id,
-        description: identificador único do pedido de venda
+      - name: sales_order_uid
+        description: Identificador universal do pedido de venda.
 
-      - name: order_date,
-        description: data que o pedido foi realizado
+      - name: customer_uid
+        description: Identificador universal do cliente.
+
+      - name: territory_uid
+        description: Identificador universal do territorio.
+
+      - name: bill_to_address_uid
+        description: Identificador universal do endereço de fatura.
+
+      - name: ship_to_addres_uid
+        description: Identificador universal do endereço de envio.
+
+      - name: credit_card_uid
+        description: Identificador universal do cartão de credito.
+
+      - name: sales_order_id
+        description: Identificador original do pedido de venda
+
+      - name: order_date
+        description: Data que o pedido foi realizado.
 
       - name: due_date
-        description: data de vencimento do pedido
+        description: Data de vencimento do pedido.
 
       - name: ship_date
-        description: data em que o pedido foi enviado ou está previsto para ser enviado.
+        description: Data em que o pedido foi enviado ou está previsto para ser enviado.
+
+      - name: status_name
+        description: Nome com o status atual do pedido.
        

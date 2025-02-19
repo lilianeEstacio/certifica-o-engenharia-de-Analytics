@@ -1,9 +1,12 @@
 models:
-  - name: stg_adventure_works_credit_card
-    description: Tabela com informações dos cartoes de credito dos clientes
+  - name: stg_adventure_works__credit_card
+    description: Tabela com informações dos cartões de crédito dos clientes.
     columns:
+      - name: credit_card_uid
+        description: Identificador universal de cartão de crédito.
+
       - name: credit_card_id
-        description: identificador de cartao de credito
+        description: Identificador de cartão de crédito.
 
       - name: card_type
-        description: tipo de cartao de credito 
+        description: Tipo de cartão de crédito.

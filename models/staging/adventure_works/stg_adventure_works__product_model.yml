@@ -1,9 +1,12 @@
 models:
-  - name: stg_adventure_works_product_model
-    description: Tabela com sobre modelos de produtos
+  - name: stg_adventure_works__product_model
+    description: Tabela com os modelos de produtos.
     columns:
+      - name: product_model_uid
+        description: Identificador universal do modelo do produto.
+
       - name: product_model_id
-        description: Identificador modelo de produto
+        description: Identificador original do modelo do produto.
 
       - name: product_model_name
-        description: nome do modelo do produto
+        description: Nome do modelo do produto.

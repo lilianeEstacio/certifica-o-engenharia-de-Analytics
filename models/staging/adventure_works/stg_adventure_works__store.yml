@@ -1,9 +1,12 @@
 models:
-  - name: stg_adventure_works_store
-    description: Tabela com informações da empresa
+  - name: stg_adventure_works__store
+    description: Tabela de cadastro das lojas.
     columns:
+      - name: store_uid
+        description: Identificador universal da loja.
+
       - name: store_id
-        description: identificador único da loja
+        description: Identificador original da loja.
 
       - name: store_name
-        description: nome da loja
+        description: Nome da loja.

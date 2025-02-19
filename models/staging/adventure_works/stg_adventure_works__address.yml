@@ -3,13 +3,19 @@ models:
     description: Tabela com o cadastros de endereços.
     columns:
       - name: address_uid
-        description: Identificador do endereço.
+        description: Identificador universal do endereço.
       
       - name: state_province_uid
-        description: Identificador do estado.
+        description: Identificador univesal do estado.
 
       - name: address_id
         description: Identificador original do endereço. 
      
       - name: address_name
-        description: nome do endereço.
+        description: Nome do endereço.
+     
+      - name: city_name
+        description: Nome da cidade.
+
+      - name: postal_code
+        description: Código postal do endereço.

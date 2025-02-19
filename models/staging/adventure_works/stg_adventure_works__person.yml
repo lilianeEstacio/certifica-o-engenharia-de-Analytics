@@ -1,9 +1,12 @@
 models:
-  - name: stg_adventure_works_sales_order_header_sales_reason
-    description: Tabela de relacionamento entre os eventos de vendas e motivo de venda.
+  - name: stg_adventure_works__person
+    description: Tabela de cadastros de pessoas individuais, como os clientes individuais.
     columns:
-      - name: sales_order_uid
-        description: Identificador universal do pedido de venda.
+      - name: person_uid
+        description: Identificador universal da pessoa.
 
-      - name: sales_reason_uid
-        description: Identificador universal do motivo de venda.
+      - name: person_id
+        description: Identificador original da pessoa.
+
+      - name: person_name
+        description: Nome da pessoa individual.
