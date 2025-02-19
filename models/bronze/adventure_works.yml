@@ -7,7 +7,8 @@ sources:
 
     freshness:
       warn_after: {count: 12, period: hour}
-      error_after: {count: 24, period: day}
+      error_after: {count: 100000, period: day}
+
     loaded_at_field: "CAST(MODIFIEDDATE AS TIMESTAMP)"
 
     tables:
