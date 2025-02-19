@@ -22,6 +22,10 @@ models:
       relation: true
       columns: true
 
-    stanging:
+    staging:
       +materialized: view
       +schema: stg
+
+    marts:
+      +materialized: table
+      +schema: marts

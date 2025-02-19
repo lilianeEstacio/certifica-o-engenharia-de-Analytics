@@ -1,0 +1,57 @@
+models:
+  - name: fact_sales_order
+    description: Tabela com informações sobre os pedidos de vendas, incluindo datas, valores e as chaves de relacionamento com as tabelas de dimensões.
+    columns:
+      - name: sales_order_detail_uid
+        description: Identificador universal do detalhe do pedido de venda.
+
+      - name: sales_order_uid
+        description: Identificador universal do pedido de venda.
+
+      - name: customer_uid
+        description: Identificador universal do cliente.
+
+      - name: territory_uid
+        description: Identificador universal do territorio.
+
+      - name: bill_to_address_uid
+        description: Identificador universal do endereço de fatura.
+
+      - name: ship_to_addres_uid
+        description: Identificador universal do endereço de envio.
+
+      - name: product_uid
+        description: Identificados universal do produto.
+
+      - name: credit_card_uid
+        description: Identificador universal do cartão de credito.
+
+      - name: sales_order_detail_id
+        description: Identificador do detalhe do pedido de venda.
+
+      - name: sales_order_id
+        description: Identificador do pedido de venda.
+
+      - name: order_date
+        description: Data que o pedido foi realizado
+
+      - name: due_date
+        description: Data de vencimento do pedido.
+
+      - name: ship_date
+        description: Data em que o pedido foi enviado ou está previsto para ser enviado.
+
+      - name: status_name
+        description: Nome com o status atual do pedido.
+
+      - name: order_quantity
+        description: Quantidade de unidades do produto no pedido.
+
+      - name: unit_price_value
+        description: Preco unitário do produto. 
+
+      - name: unit_price_discount_value
+        description: Valor de desconto aplicado ao preco unitario do produto
+
+      - name: total_sales_value
+        description: Valor total da venda realizada.
